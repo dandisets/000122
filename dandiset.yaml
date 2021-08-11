@@ -2,10 +2,21 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000122
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.5.1/context.json
+about: []
+access: []
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach: []
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique: []
+  numberOfBytes: 49898320
+  numberOfFiles: 5
+  numberOfSubjects: 5
   schemaKey: AssetsSummary
+  species: []
+  variableMeasured: []
 citation: Erat Sleiter, Darin (2021) Human fNIRS recordings of motor cortex during
   finger-taping task (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000122/draft
 contributor:
@@ -17,11 +28,21 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 description: WIP
+ethicsApproval: []
 id: DANDI:000122/draft
 identifier: DANDI:000122
+keywords: []
+license:
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000122/versions/draft/assets/
 name: Human fNIRS recordings of motor cortex during finger-taping task
+protocol: []
+relatedResource: []
+repository: https://dandiarchive.org/
+schemaKey: Dandiset
 schemaVersion: 0.5.1
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000122/draft
 version: draft
+wasGeneratedBy: []
