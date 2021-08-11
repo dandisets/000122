@@ -18,27 +18,45 @@ assetsSummary:
   species: []
   variableMeasured: []
 citation: Erat Sleiter, Darin (2021) Human fNIRS recordings of motor cortex during
-  finger-taping task (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000122/draft
+  finger-tapping task (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000122/draft
 contributor:
 - affiliation: []
-  email: darin.sleiter@gmail.com
+  email: darin@ae.studio
   includeInCitation: true
   name: Erat Sleiter, Darin
   roleName:
   - dcite:ContactPerson
   schemaKey: Person
-description: WIP
+description: This experiment examines how the motor cortex is activated during a finger-tapping
+  task. Participants are asked to either tap their left thumb to fingers, tap their
+  right thumb to fingers, or no cue is given (control). Tapping lasts for 5 seconds
+  and is prompted by an auditory cue. Sensors are placed over the motor cortex as
+  described in the montage section in the link below, short channels are attached
+  to the scalp too. Further details about the experiment (including presentation code)
+  can be found at https://github.com/rob-luke/experiment-fNIRS-tapping.
 ethicsApproval: []
 id: DANDI:000122/draft
 identifier: DANDI:000122
-keywords: []
+keywords:
+- fNIRS
+- Haemodynamics
+- Motor Cortex
+- Finger Tapping Task
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000122/versions/draft/assets/
-name: Human fNIRS recordings of motor cortex during finger-taping task
+name: Human fNIRS recordings of motor cortex during finger-tapping task
 protocol: []
-relatedResource: []
+relatedResource:
+- name: Source Dataset In SNIRF Format
+  relation: dcite:IsOriginalFormOf
+  repository: BIDS-NIRS-Tapping
+  url: https://github.com/rob-luke/BIDS-NIRS-Tapping
+- name: Experiment Definition
+  relation: dcite:IsDescribedBy
+  repository: experiment-fNIRS-tapping
+  url: https://github.com/rob-luke/experiment-fNIRS-tapping
 repository: https://dandiarchive.org/
 schemaKey: Dandiset
 schemaVersion: 0.5.1
