@@ -3,7 +3,9 @@
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.0/context.json
 about: []
-access: []
+access:
+- schemaKey: AccessRequirements
+  status: dandi:OpenAccess
 assetsSummary:
   approach: []
   dataStandard:
@@ -17,7 +19,7 @@ assetsSummary:
   schemaKey: AssetsSummary
   species: []
   variableMeasured: []
-citation: Erat Sleiter, Darin (2022) Human fNIRS recordings of motor cortex during
+citation: Erat Sleiter, Darin (2024) Human fNIRS recordings of motor cortex during
   finger-tapping task (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/000122/draft
 contributor:
 - affiliation: []
@@ -60,7 +62,7 @@ relatedResource:
   repository: experiment-fNIRS-tapping
   schemaKey: Resource
   url: https://github.com/rob-luke/experiment-fNIRS-tapping
-repository: https://dandiarchive.org/
+repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.0
 studyTarget: []
